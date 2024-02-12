@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    height: 100vh;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#botao {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f5fc0f;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+}
+
+#botao:hover {
+    background-color: #d1ba35;
+}
+
+#corzinha {
+    width: 400px;
+    height: 250px;
+    margin-bottom: 2%;
+    border: none;
+}
+
+#code {
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #000000;
+    color: white;
+    cursor: unset;
+    outline: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+#main {
+    padding: 1%;
+    background-color: #000000;
+}
+
+input {
+    outline: none;
+}
